@@ -1,0 +1,11 @@
+Suppose, I am having a jar of cookies and I take out cookies one by one from it.
+And there's a queue of children in front of me :> to whom I need to distribute the cookies.
+
+Every Cookie is having some size
+Every child can get atmost 1 cookie.
+Every child is having some greed for cookie :> he/she will only those whose size is atleast eq to their greed factor.
+
+:> I'm holding a cookie and a child is next to me. A cookie can only be assigned to the child iff it's size is atleast the greed factor of the child. :> s[j] >= g[i]
+and, I need to give cookies to maximum possible children.
+
+So, we'll come up with a way, we'll sort child a/c their greed and the cookies a/c its size. This way maximum will get their turns.
