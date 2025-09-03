@@ -1,0 +1,14 @@
+Say, there're n items, each having some value and weight.
+
+we got a bag/knapsack that is having a limit to which it can hold weight of the items inside.
+so, we need to put items in the knapsack such that we get a maximum value. (we can break the items too.)
+
+since, we need to get a maximum value given that there's a constraint on the weight of objects we can take.
+as we want highest toal value, we just need to equalise their weights so that we can compare values on a common ground.
+we need to pick elements whose value is most considering per unit wt of it.
+
+So, we'll need to pick the objects first whose val/wt is maximum.
+
+:> app:
+1. sort the items on the basisi of their value per unit weight. in desc order.
+2. start picking items until the remaining capacity in the knapsack becomes 0. Ya, it's possible coz' we're allowed to break the items too.
